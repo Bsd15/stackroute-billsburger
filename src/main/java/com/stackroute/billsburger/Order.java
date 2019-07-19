@@ -7,7 +7,7 @@ public class Order {
     private int orderNumber;
     private List<Hamburger> hamburgersList = new ArrayList<>();
 
-    public void Order(int orderNo){
+    Order(int orderNo){
         this.orderNumber = orderNo;
     }
 
@@ -15,8 +15,8 @@ public class Order {
         return orderNumber;
     }
 
-    public void setOrderNumber(int orderNumber) {
-        this.orderNumber = orderNumber;
+    public List<Hamburger> getHamburgersList() {
+        return hamburgersList;
     }
 
     public void addBurger(Hamburger hamburger){
