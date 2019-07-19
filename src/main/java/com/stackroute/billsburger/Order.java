@@ -24,6 +24,10 @@ public class Order {
     }
 
     public double getTotalCost(){
-        return 0;
+        double totalCost = 0;
+        for (Hamburger hamburger: hamburgersList){
+            totalCost += hamburger.getTotalCost();
+        }
+        return totalCost;
     }
 }
