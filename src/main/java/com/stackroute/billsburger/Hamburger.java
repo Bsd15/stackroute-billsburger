@@ -11,6 +11,9 @@ public class Hamburger {
     private List<AdditionalItem> additions;
     private double price;
 
+    public Hamburger() {
+    }
+
     public Hamburger(String breadRollType, String meat, double price) {
         this.breadRollType = breadRollType;
         this.meat = meat;
