@@ -1,5 +1,8 @@
 package com.stackroute.billsburger;
 
+/**
+ * Additions that can be added to the burger. Consists two properties i.e. name and price.
+ */
 public class AdditionalItem {
     private String nameOfTheAddOn;
     private double priceOfTheAddOn;
@@ -14,16 +17,8 @@ public class AdditionalItem {
         return nameOfTheAddOn;
     }
 
-    public void setNameOfTheAddOn(String nameOfTheAddOn) {
-        this.nameOfTheAddOn = nameOfTheAddOn;
-    }
-
     public double getPriceOfTheAddOn() {
         return priceOfTheAddOn;
-    }
-
-    public void setPriceOfTheAddOn(double priceOfTheAddOn) {
-        this.priceOfTheAddOn = priceOfTheAddOn;
     }
 
 }
