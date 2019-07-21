@@ -131,7 +131,7 @@ public class Server {
             default:
                 System.out.println("Select correct option.");
         }
-        System.out.println("Added. Would like to add another burger?");
+        System.out.println("Added. Would like to add another burger? (yes/y or no/n)");
         choice = getScanner().next();
         /*In order to skip the next line*/
         getScanner().nextLine();
